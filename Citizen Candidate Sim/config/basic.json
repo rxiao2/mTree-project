@@ -1,1 +1,16 @@
+{"mtree_type": "mes_simulation_description",
+    "name":"citizen_candidate_election",
+    "id": "1",
+    "environment": "cc_env.CcEnvironment",
+    "institutions": "cc_ins.CcInstitution",
+    "number_of_runs": 1,
+    "agents": [{"agent_name": "cc_agent.CcAgent", "number": 7}],
+    "properties": { "endowment":1000,
+                    "rent":500,
+                    "cost":300,
+                    "multiplier":100,
+                    "bliss_point":[1,3,5,7,9,11,13]
+                    },
+    "data_logging": false
+}   
 
